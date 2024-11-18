@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+   /**@font-face {
+   font-family:"c";
+   src: url("font/Noto_Sans.zip") format("truetype");
+   font-style: normal;
+   font-weight: 900;
+
+}*/
+body{
+   margin: 0;
+   background-color: #000;
+   color: #fff;
+   font-family: "Noto_Sans ", sans-serif;
+   font-style: 18px;
+   overflow-x: hidden;
+   }
+
+
+   
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   font-family: "Montserrat ", sans-serif; ;
+}
+h2{
+   font-style: 51px;
+}
+a{
+   color: #fff;
+   text-decoration: none;
+}
+a:hover {
+   opacity: 0.8;
+}
+a:active {
+   opacity: 1;
+}
+
+p{
+   margin: 0;
+}
+
+
+.container {
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  
+   
+}
+.header .container {
+   display: flex;
+      align-items: center;
+      gap: 110px;
+
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+
+}
+
+.header__logo {
+   
+
+}
+
+.logo-img {
+
+}
+
+.logo-text {
+
+}
+
+.header-login {
+   display: flex;
+      align-items: center;
+      gap: 12px;
+
+      font-weight: 400;
+      
+}
+
+main {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.welcome {
+   
+   padding-bottom: 50px;
+  
+}
+
+.welcome-container {
+   position: relative;
+}
+
+
+.welcome-container::after {
+   content:"";
+   width: 660px;
+   height: 790px;
+
+   position: absolute;
+   right: -170px;
+   top: -240px;
+   z-index: -1;
+
+   transform: rotate(-105deg);
+
+   background-image: url(./img/bg-welcome.svg);
+   background-size: contain   ;
+   background-repeat: no-repeat;
+}
+
+
+.welcome__row {
+   display: flex;
+   align-items: center;
+  
+   padding-right: 30px;
+   margin-bottom: 30px;
+   min-height: 700px;
+
+}
+
+.welcome__desc {}
+
+.welcome-title {
+
+   margin-bottom: 120px;
+   font-style: 64px;
+   line-height: 1.09;
+
+
+}
+
+.welcome-text {
+   position: relative;
+   font-style: 20px;
+   padding-left: 130px;
+   width: 380px;
+
+
+}
+
+.welcome-text::before {
+   content: "";
+   width: 125px;
+   height: 125px;
+   position: absolute;
+   left: 20px;
+   bottom: 50%;
+   background: rgba(96, 92, 234, 0.5);
+   filter: blur(50px);
+}
+
+.welcome-text::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 55px;
+   width: 142px;
+   height: 4px;
+   background-color: #fff;
+   transform: rotate(120deg);
+}
+
+
+
+.welcome-img {
+   width: 450px;
+   position: absolute;
+   right: 40px;
+   top: -50px;
+
+}
+
+.welcome__cta{
+   padding-right: 60px;
+}
+
+.cta {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.cta-text {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-style: 35px;
+
+}
+
+.cta-links {
+   display: flex;
+   gap: 30px;
+
+}
+
+.cta-link {
+
+}
+
+.cta-img {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mission {
+   padding: 150px 85px;
+   position: relative;
+
+}
+
+
+
+
+
+.mission-container {
+  
+
+}
+
+.mission-img {
+   transform: rotate(90deg)translate(-43%);
+   position: absolute;
+   top: 0;
+   right: 57%;
+   z-index: -1;
+
+}
+
+.mission-desc {
+   width: 320px;
+   margin-left: auto;
+
+
+}
+
+.mission-title {
+   margin-bottom: 30px;
+   
+}
+
+.mission-title::after {
+   content: '';
+   position: absolute;
+   right: 200px;
+ /* top:0;*/
+
+   z-index: -1;
+
+   width: 85px;
+   height: 85px;
+
+   background: #f101bf;
+   opacity: 0.7;
+   filter: blur(50px);
+}
+
+.mission-text {
+
+
+}
+
