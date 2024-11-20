@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-   /**@font-face {
+   @font-face {
    font-family:"c";
    src: url("font/Noto_Sans.zip") format("truetype");
    font-style: normal;
    font-weight: 900;
 
-}*/
+}
+
 body{
    margin: 0;
    background-color: #000;
@@ -165,7 +166,7 @@ main {
    position: absolute;
    right: -170px;
    top: -240px;
-   z-index: -1;
+   z-index: -10;
 
    transform: rotate(-105deg);
 
@@ -212,6 +213,7 @@ main {
    position: absolute;
    left: 20px;
    bottom: 50%;
+   z-index: -10;
    background: rgba(96, 92, 234, 0.5);
    filter: blur(50px);
 }
@@ -223,6 +225,7 @@ main {
    bottom: 55px;
    width: 142px;
    height: 4px;
+   z-index: -5;
    background-color: #fff;
    transform: rotate(120deg);
 }
@@ -232,8 +235,10 @@ main {
 .welcome-img {
    width: 450px;
    position: absolute;
+
    right: 40px;
    top: -50px;
+   z-index: -5;
 
 }
 
@@ -345,4 +350,165 @@ main {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+   padding: 100px 0 50px ;
+   overflow: hidden;
+}
+
+
+ .footer__container {
+   position: relative;
+ }
+
+.footer__container::before {
+   content: '';
+   position: absolute;
+   left: -170px;
+   bottom: -200px;
+   z-index: -1;
+
+   width: 400px;
+   height: 400px;
+
+   background: linear-gradient(12deg, #f101bf 3%, #0066ff 97%);
+   opacity: 0.3%;
+   filter: blur(125px);
+   transform: rotate(6deg) ;
+}
+
+
+
+
+
+.footer__cta {
+   margin-bottom: 125px;
+   flex-direction: column;
+   gap: 30px;
+
+}
+
+
+.footer__cta .cta-text {
+   font-style: 24px;
+
+
+
+}
+
+
+.footer__cta .cta-img {
+   height: 80px;
+}
+
+.footer__cta .cta-link {
+   gap: 60px;
+
+}
+
+
+
+.cta-text {
+
+
+}
+
+
+
+.cta-links {
+
+
+}
+
+
+
+.cta-link {}
+
+
+
+.cta-img {}
+
+
+
+.footer__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__row > * {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+
+
+.foote__content {}
+
+
+
+.footer__logo-link {
+   display: inline-block;
+   margin-bottom: 15px;
+
+
+}
+
+
+
+.footer__logo {}
+
+
+
+
+.footer__contact {
+   margin-bottom: 15px;
+
+
+
+}
+
+
+
+.footer__copy {}
+
+
+
+.footer__links {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+
+
+.footer__link {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
