@@ -333,8 +333,8 @@ main {
 .mission-title::after {
    content: '';
    position: absolute;
-   right: 200px;
- /* top:0;*/
+      left: 1500px;
+         bottom: 200px;
 
    z-index: -1;
 
@@ -346,10 +346,97 @@ main {
    filter: blur(50px);
 }
 
+
+
+    
+
+
+
+
+
+
+
+
 .mission-text {
 
 
 }
+
+
+
+
+
+
+
+
+.common {
+   margin-top: 200px;
+   padding: 50px 0;
+
+}
+
+.common:nth-child(even) .container {
+   flex-direction: row-reverse;
+}
+
+
+.common-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+
+}
+
+.common-img {}
+
+.common-col {
+   max-width: 410px;
+
+}
+
+.common-title {
+   margin-bottom: 20px;
+
+}
+
+.common-text {}
+
+
+
+
+.scanner {
+   background: linear-gradient(180deg, #000 -3%, rgba(0, 0, 0, 0) 56%, #000 84%), url("./img/bg-scanner.jpg");
+   background-size: cover;
+
+}
+
+
+.code {
+   background: linear-gradient(180deg, #000 -3%, rgba(0, 0, 0, 0) 56%, #000 84%), url("./img/bg-code.jpg");
+   background-size: cover;
+   background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -386,7 +473,7 @@ main {
    height: 400px;
 
    background: linear-gradient(12deg, #f101bf 3%, #0066ff 97%);
-   opacity: 0.3%;
+   opacity: 56%;
    filter: blur(125px);
    transform: rotate(6deg) ;
 }
